@@ -1,15 +1,14 @@
-appraise "rails-4.1" do
-  gem "actionpack", "~> 4.1.0"
-  gem "actionview", "~> 4.1.0"
+appraise "rails-5.1" do
+  gem "actionpack", "~> 5.1.1"
+  gem "actionview", "~> 5.1.1"
 end
 
-appraise "rails-4.2" do
-  gem "actionpack", "~> 4.2.0"
-  gem "actionview", "~> 4.2.0"
+appraise "rails-5.2" do
+  gem "actionpack", "~> 5.2.0"
+  gem "actionview", "~> 5.2.0"
 end
 
-appraise "rails-5.0" do
-  # At least 5.0.1 due to test failures - https://github.com/rails/rails/pull/25950
-  gem "actionpack", "~> 5.0.1"
-  gem "actionview", "~> 5.0.1"
+appraise "rails-6.0" do
+  gem "actionpack", "~> 6.0.0"
+  gem "actionview", "~> 6.0.0"
 end
